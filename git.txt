@@ -19,9 +19,32 @@ test.txt -> test최종.txt -> test최최종.txt
  명령어
  > git init (저장소 설정)
  > git status (상태 확인)
+
+ >본인정보 사용 실행
+ > git config --global user.email "you@example.com"
+ > git config --global user.name "Your Name"
  
- > git add [untracked상태의 파일명]
+ > git add [untracked상태의 파일명] [.]
 
  > git add git.txt
 
  > git commit -m "첫번째 커밋"
+
+ > git log
+
+ > git log --oneline
+
+ > git checkout [커밋아이디]
+
+ > git checkout [커밋아이디] [파일명]
+
+ > git remote add origin [깃허브 원격저장소 주소]
+
+ > git push origin master
+
+
+
+
+
+
+
